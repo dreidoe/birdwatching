@@ -1,0 +1,15 @@
+/* tag selector- select all the h1s and apply the following styles */
+header, main, footer{
+    background-color: greenyellow;
+}
+/* select any and all descendants that are div inside of header */
+ header div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+h1{
+    font-size:3em;
+    font-weight:700;
+}
