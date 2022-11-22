@@ -33,3 +33,8 @@ nav a {
     text-transform: uppercase;
     padding:1rem;
 }
+
+nav a:hover{
+    background-color:black;
+
+}
