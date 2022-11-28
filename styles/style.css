@@ -47,12 +47,16 @@ main{
 
 main section {
     background-color:aqua;
-    padding: 0 1rem;
+    padding:  1rem;
 }
 main section:first-child {
     min-width: 60%;
 }
-
-
-
-
+ 
+main section:last-child{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+main section:last-child h2 {
+    grid-column: 1 / -1;
+}
