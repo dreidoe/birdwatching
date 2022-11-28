@@ -92,3 +92,8 @@ main section:last-child {
 footer{
     padding: 1rem 0.5rem;
 }  
+img {
+    /* prevent images from spilling outside the parent */
+    max-width: 100%;
+    height:auto;
+}
