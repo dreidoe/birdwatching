@@ -60,3 +60,35 @@ main section:last-child{
 main section:last-child h2 {
     grid-column: 1 / -1;
 }
+main section:last-child {
+    display: grid;
+  
+    grid-template-areas: 
+      "header header"
+      "img-1 img-2"
+      "img-3 img-4";
+  }
+  
+  main section:last-child h2 {
+    grid-area: header;
+  }
+  
+  main section:last-child img:first-child {
+    grid-area: img-1;
+  }
+  
+  main section:last-child img:nth-child(2) {
+    grid-area: img-2;
+  }
+  
+  main section:last-child img:nth-child(3) {
+    grid-area: img-3;
+  }
+  
+  main section:last-child img:last-child {
+    grid-area: img-4;
+  }
+  
+footer{
+    padding: 1rem 0.5rem;
+}  
